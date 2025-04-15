@@ -1,32 +1,22 @@
 RDS + EC2 within VPC
-This project demonstrates how to securely connect an EC2 instance to a MySQL RDS database inside a custom VPC. The setup ensures secure communication between EC2 and RDS through private networking.
+This project demonstrates how to connect an EC2 instance to a MySQL RDS database within a VPC, ensuring secure and private communication.
 
-Steps Taken:
-Custom VPC Setup:
+Steps:
+Create Custom VPC:
+Set up a VPC with both public and private subnets.
 
-Created a VPC with public and private subnets to isolate the RDS instance for security.
+Launch EC2 Instance:
+Deploy an EC2 instance in the public subnet for database access.
 
-EC2 Instance Launch:
+Launch RDS Instance:
+Deploy MySQL RDS in the private subnet to keep it isolated from the public internet.
 
-Launched an EC2 instance in the public subnet to act as the access point for the database.
+Connect EC2 to RDS:
+Use MySQL CLI on EC2 to connect securely to the RDS instance within the VPC.
 
-Configured security groups to allow communication from the EC2 to the RDS.
+Learnings:
+Understanding VPC structure with public and private subnets.
 
-RDS Instance Setup:
+Managing RDS and EC2 security using security groups and IAM roles.
 
-Created an RDS MySQL instance in the private subnet to avoid exposure to the internet.
-
-Enabled IAM roles and policies for secure access.
-
-Database Connectivity:
-
-Used MySQL CLI on the EC2 instance to connect to the RDS instance privately.
-
-Verified secure communication within the VPC without needing public IPs.
-
-Key Learnings:
-VPC Networking: Understanding how private and public subnets work within a VPC for secure architecture.
-
-RDS and EC2 Security: Setting up security groups, IAM roles, and private communication for safe data access.
-
-Best Practices: Ensuring that the database remains isolated within the private subnet while maintaining efficient access from EC2.
+Ensuring secure, private database connectivity within a VPC.

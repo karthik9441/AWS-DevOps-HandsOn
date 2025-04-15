@@ -1,13 +1,18 @@
-## Dockerized Node.js App
+Dockerized Node.js App
+This project demonstrates how to containerize a simple Node.js web application using Docker — a key DevOps skill for building scalable and portable applications.
 
-This project shows how to run a Node.js web application inside a Docker container.
+Steps:
+✅ Cloned a basic Node.js application from GitHub.
 
-### Steps:
-- Cloned a sample Node.js app
-- Created a Dockerfile
-- Built a Docker image
-- Ran the container
+🐳 Created a Dockerfile to define the environment and dependencies.
 
-### Learnings:
-- Containerization of apps
-- Docker image and container workflow
+🔧 Built a Docker image from the application code.
+
+🚀 Ran the container and accessed the app on a browser.
+
+Learnings:
+💡 How Docker packages an app with its dependencies into a container.
+
+🛠️ The lifecycle of Docker: build → run → stop → remove.
+
+🌐 Basic networking and exposing ports using Docker.

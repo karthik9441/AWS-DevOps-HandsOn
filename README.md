@@ -48,12 +48,22 @@ This repository contains real-world AWS and DevOps projects I've completed to st
 📂 Path: `4-VPC-Networking-Architecture/`
 
 ---
+About Me
+Hi, I'm Karthik Gudavalli — a passionate and hands-on DevOps enthusiast exploring cloud technologies, containerization, and real-world infrastructure automation.
 
-## 📌 About Me
-Hi, I'm **Karthik Gudavalli** — an aspiring DevOps engineer exploring AWS, Docker, and real-world infra deployments. Connect with me:
+I enjoy working on practical cloud solutions using AWS, containerizing applications with Docker, and setting up secure, scalable architectures using services like EC2, RDS, VPC, S3, Route 53, and more.
+
+I'm on a continuous learning journey, and every project in this repo reflects real tasks I’ve completed while building my DevOps skillset.
+
+🔗 Connect with Me
+🌐 LinkedIn
+
+🐙 GitHub
+
+🌍 Portfolio
+
+“Learning by doing is the best way to grow in tech.”
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/karthikgudavalli)
 - 🐙 [GitHub](https://github.com/karthik9441)
 - 🌍 Portfolio: [karthikhub.site](https://karthikhub.site)
-
-> "Learning by doing is the best way to grow in tech."
